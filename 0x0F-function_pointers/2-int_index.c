@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 /**
- * int_index - the place to compare 
+ * int_index - the place to compare
  * @array: array
  * @size: size of elements in array
  * @cmp: pointer to func
