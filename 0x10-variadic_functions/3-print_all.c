@@ -1,4 +1,6 @@
 #include "variadic_functions.h"
+#include <stdio.h>
+
 /**
  *  print_all - print all strings
  *  @format :list of arg

@@ -1,4 +1,6 @@
 #include "variadic_functions.h"
+#include <stdarg.h>
+
 /**
  * print_numbers - print numbers of arg are separated with string
  * @separator :to print between each arg
