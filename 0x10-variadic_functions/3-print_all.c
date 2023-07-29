@@ -3,8 +3,8 @@
 #include <stdarg.h>
 
 /**
- *  print_all - print all strings
- *  @format :list of arg
+ * print_all - print all strings
+ * @format :list of arg
  */
 void print_all(const char * const format, ...)
 {
@@ -18,6 +18,7 @@ void print_all(const char * const format, ...)
 		while (format[j])
 		{
 			switch (format[j])
+			{
 				case 'c':
 					printf("%s%c", separate, va_arg(p, int));
 					break;

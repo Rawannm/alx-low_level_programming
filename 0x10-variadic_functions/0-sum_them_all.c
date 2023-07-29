@@ -8,13 +8,10 @@
  *
  * Return: sum
  */
-
 int sum_them_all(const unsigned int n, ...)
-
 {
 	va_list ap;
-
-	unsigened int j, sum = 0;
+	unsigned int j, sum = 0;
 
 	va_start(ap, n);
 

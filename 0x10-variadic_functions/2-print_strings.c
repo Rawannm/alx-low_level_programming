@@ -1,6 +1,7 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
+
 /**
  * print_strings - print string and new line
  * @separator :to print between strings
@@ -9,7 +10,6 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	{
 	va_list string;
 	char *c;
 	unsigned int i;
