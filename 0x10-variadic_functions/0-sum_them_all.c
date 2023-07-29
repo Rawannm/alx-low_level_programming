@@ -6,21 +6,22 @@
  * @n: the last arg in the func
  * @...: the rest of the arg
  *
- * Return :sum
+ * Return: sum
  */
 
 int sum_them_all(const unsigned int n, ...)
+
 {
-	int sum, j = 0;
 	va_list ap;
 
-	if (n == 0)
-	{
-		return (0);
-	}
+	unsigened int j, sum = 0;
+
 	va_start(ap, n);
+
 	for (j = 0; j < n; j++)
 		sum += va_arg(ap, int);
-		va_end(ap);
+
+	va_end(ap);
+
 	return (sum);
 }
