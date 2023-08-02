@@ -23,7 +23,7 @@ int _strlen_recursion(char *r)
 {
 	if (*r == '\0')
 		return (0);
-	return (1 + _strlen_recursion(s + 1));
+	return (1 + _strlen_recursion(r + 1));
 }
 /**
 * check_pal - to check
@@ -35,7 +35,7 @@ int _strlen_recursion(char *r)
 */
 int check_pal(char *c, int j, int length)
 {
-	if (*(c + j) != *(c + length - 1)
+	if (*(c + j) != *(c + length - 1))
 		return (0);
 	if (j >= length)
 		return (1);
