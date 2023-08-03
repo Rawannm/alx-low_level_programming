@@ -33,7 +33,7 @@ size_t looped_listint_len(const listint_t *head)
 				h = h->next;
 			}
 
-			tort = tor->next;
+			tort = tort->next;
 			while (tort != h)
 			{
 				nodes++;
