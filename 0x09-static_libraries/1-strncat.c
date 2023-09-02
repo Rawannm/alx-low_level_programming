@@ -2,8 +2,8 @@
 /**
  * _strncat - concatenate two strings
  * using at most n bytes from src
- * @dest: input 
- * @src: input 
+ * @dest: input
+ * @src: input
  * @n: input value
  *
  * Return: dest
