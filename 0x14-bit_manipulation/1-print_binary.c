@@ -2,7 +2,7 @@
 
 /**
  * _pow - func calc
- * @base: base 
+ * @base: base
  * @power: power of the exponent
  *
  * Return: (base ^ power)
